@@ -2,12 +2,23 @@
 A Simple movie database using SQL and Python for managing actors, directors, and reviews.
 
 # Features:
-- Import and analyze CSV files
+- Import and analyze **CSV files**
 - Store and manage **movies, actors, and reviews** in a database
-- Query and update data using Python
-- Display movies and actor as pair
+- Query and update data using **Python script**
+- Display **movies and their actors** as a pair
 
 # Technologies Used:
 - Python
 - SQLite
 - CSV
+
+# How to run the project
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/VinhNguyen0505/movie_database.git
+   cd movie_database
+2. Ensure SQLite and Python is installed.
+3. Run the following in Command Prompt:
+   python import_movie_actors.py
+4. Query the database using:
+   SELECT * FROM MovieActors;
