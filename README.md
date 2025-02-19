@@ -19,6 +19,8 @@ A Simple movie database using SQL and Python for managing actors, directors, and
    cd movie_database
 2. Ensure SQLite and Python is installed.
 3. Run the following in Command Prompt:
+   ```bash
    python import_movie_actors.py
-4. Query the database using:
+5. Query the database using:
+   ```sql
    SELECT * FROM MovieActors;
