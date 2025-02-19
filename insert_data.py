@@ -32,6 +32,7 @@ cursor.execute("""
 CREATE TABLE IF NOT EXISTS MovieActors (
     MovieID INTEGER,
     ActorID INTEGER,
+    ActorName TEXT,
     FOREIGN KEY (MovieID) REFERENCES Movies(MovieID),
     FOREIGN KEY (ActorID) REFERENCES Actors(ActorID),
     PRIMARY KEY (MovieID, ActorID)
