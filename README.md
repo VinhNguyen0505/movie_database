@@ -14,13 +14,18 @@ A Simple movie database using SQL and Python for managing actors, directors, and
 
 # How to run the project
 1. Clone this repository:
+   
    ```bash
    git clone https://github.com/VinhNguyen0505/movie_database.git
    cd movie_database
-2. Ensure SQLite and Python is installed.
-3. Run the following in Command Prompt:
+   
+3. Ensure SQLite and Python is installed.
+4. Run the following in Command Prompt:
+   
    ```bash
    python import_movie_actors.py
-5. Query the database using:
+   
+6. Query the database using:
+   
    ```sql
    SELECT * FROM MovieActors;
